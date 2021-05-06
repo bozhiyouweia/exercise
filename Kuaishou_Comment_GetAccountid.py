@@ -83,12 +83,7 @@ class Kuaishou_Account:
         for thread1 in thread_list:
             thread1.join()
 
-
-
-
 if __name__ == '__main__':
-
-
 
     while True:
         try:
@@ -96,7 +91,7 @@ if __name__ == '__main__':
             while hours >= 8 and hours <= 22:
                 hours = datetime.datetime.now().hour
                 ka = Kuaishou_Account()
-                # ka.Get_Account()
+                #ka.Get_Account()
                 q = queue.Queue()
                 devices_list = []
                 ka.main()
