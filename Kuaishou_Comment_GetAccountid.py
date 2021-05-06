@@ -86,7 +86,6 @@ class Kuaishou_Account:
 if __name__ == '__main__':
 
     while True:
-        #启动
         try:
             hours = datetime.datetime.now().hour
             while hours >= 8 and hours <= 22:
